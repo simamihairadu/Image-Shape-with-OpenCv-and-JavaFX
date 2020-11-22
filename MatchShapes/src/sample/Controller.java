@@ -1,36 +1,23 @@
 package sample;
 
-import com.sun.javafx.scene.control.skin.Utils;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.embed.swing.SwingFXUtils;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Group;
-import javafx.scene.Parent;
-import javafx.scene.Scene;
-import javafx.scene.control.Button;
 import javafx.scene.control.Slider;
 import javafx.scene.control.TextField;
-import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
-import javafx.scene.input.DragEvent;
 import javafx.scene.input.MouseEvent;
-import javafx.scene.layout.HBox;
-import javafx.scene.layout.Pane;
-import javafx.stage.Stage;
 import org.opencv.core.*;
 import org.opencv.highgui.HighGui;
 import org.opencv.imgcodecs.Imgcodecs;
 import org.opencv.imgproc.Imgproc;
 
 import java.awt.image.BufferedImage;
-import java.io.IOException;
 import java.util.ArrayList;
 
 import static org.opencv.core.Core.bitwise_not;
-import static org.opencv.core.CvType.CV_8UC3;
 
 public class Controller {
 
